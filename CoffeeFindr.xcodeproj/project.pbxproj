@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBD668B91C8BC3D20033F877 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD668B81C8BC3D20033F877 /* main.m */; };
+		FBD668BC1C8BC3D20033F877 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD668BB1C8BC3D20033F877 /* AppDelegate.m */; };
+		FBD668BF1C8BC3D20033F877 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD668BE1C8BC3D20033F877 /* ViewController.m */; };
+		FBD668C21C8BC3D20033F877 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBD668C01C8BC3D20033F877 /* Main.storyboard */; };
+		FBD668C41C8BC3D20033F877 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBD668C31C8BC3D20033F877 /* Assets.xcassets */; };
+		FBD668C71C8BC3D20033F877 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBD668C51C8BC3D20033F877 /* LaunchScreen.storyboard */; };
+		FBD668CF1C8BC4B80033F877 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBD668CE1C8BC4B80033F877 /* CoreLocation.framework */; };
+		FBD668D11C8BC4C10033F877 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBD668D01C8BC4C10033F877 /* MapKit.framework */; };
+		FBD668D41C8C05300033F877 /* CoffeeShop.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD668D31C8C05300033F877 /* CoffeeShop.m */; };
+		FBD668D71C8C11990033F877 /* DirectionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD668D61C8C11990033F877 /* DirectionsViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FBD668B41C8BC3D20033F877 /* CoffeeFindr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeFindr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBD668B81C8BC3D20033F877 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FBD668BA1C8BC3D20033F877 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FBD668BB1C8BC3D20033F877 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FBD668BD1C8BC3D20033F877 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FBD668BE1C8BC3D20033F877 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FBD668C11C8BC3D20033F877 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBD668C31C8BC3D20033F877 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBD668C61C8BC3D20033F877 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FBD668C81C8BC3D20033F877 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBD668CE1C8BC4B80033F877 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FBD668D01C8BC4C10033F877 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		FBD668D21C8C05300033F877 /* CoffeeShop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoffeeShop.h; sourceTree = "<group>"; };
+		FBD668D31C8C05300033F877 /* CoffeeShop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoffeeShop.m; sourceTree = "<group>"; };
+		FBD668D51C8C11990033F877 /* DirectionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DirectionsViewController.h; sourceTree = "<group>"; };
+		FBD668D61C8C11990033F877 /* DirectionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DirectionsViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBD668B11C8BC3D20033F877 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBD668D11C8BC4C10033F877 /* MapKit.framework in Frameworks */,
+				FBD668CF1C8BC4B80033F877 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBD668AB1C8BC3D20033F877 = {
+			isa = PBXGroup;
+			children = (
+				FBD668D01C8BC4C10033F877 /* MapKit.framework */,
+				FBD668CE1C8BC4B80033F877 /* CoreLocation.framework */,
+				FBD668B61C8BC3D20033F877 /* CoffeeFindr */,
+				FBD668B51C8BC3D20033F877 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBD668B51C8BC3D20033F877 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBD668B41C8BC3D20033F877 /* CoffeeFindr.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBD668B61C8BC3D20033F877 /* CoffeeFindr */ = {
+			isa = PBXGroup;
+			children = (
+				FBD668BA1C8BC3D20033F877 /* AppDelegate.h */,
+				FBD668BB1C8BC3D20033F877 /* AppDelegate.m */,
+				FBD668BD1C8BC3D20033F877 /* ViewController.h */,
+				FBD668BE1C8BC3D20033F877 /* ViewController.m */,
+				FBD668D21C8C05300033F877 /* CoffeeShop.h */,
+				FBD668D31C8C05300033F877 /* CoffeeShop.m */,
+				FBD668C01C8BC3D20033F877 /* Main.storyboard */,
+				FBD668D51C8C11990033F877 /* DirectionsViewController.h */,
+				FBD668D61C8C11990033F877 /* DirectionsViewController.m */,
+				FBD668C31C8BC3D20033F877 /* Assets.xcassets */,
+				FBD668C51C8BC3D20033F877 /* LaunchScreen.storyboard */,
+				FBD668C81C8BC3D20033F877 /* Info.plist */,
+				FBD668B71C8BC3D20033F877 /* Supporting Files */,
+			);
+			path = CoffeeFindr;
+			sourceTree = "<group>";
+		};
+		FBD668B71C8BC3D20033F877 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBD668B81C8BC3D20033F877 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBD668B31C8BC3D20033F877 /* CoffeeFindr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBD668CB1C8BC3D20033F877 /* Build configuration list for PBXNativeTarget "CoffeeFindr" */;
+			buildPhases = (
+				FBD668B01C8BC3D20033F877 /* Sources */,
+				FBD668B11C8BC3D20033F877 /* Frameworks */,
+				FBD668B21C8BC3D20033F877 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoffeeFindr;
+			productName = CoffeeFindr;
+			productReference = FBD668B41C8BC3D20033F877 /* CoffeeFindr.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBD668AC1C8BC3D20033F877 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Amber;
+				TargetAttributes = {
+					FBD668B31C8BC3D20033F877 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = F6V85GU6HN;
+					};
+				};
+			};
+			buildConfigurationList = FBD668AF1C8BC3D20033F877 /* Build configuration list for PBXProject "CoffeeFindr" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBD668AB1C8BC3D20033F877;
+			productRefGroup = FBD668B51C8BC3D20033F877 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBD668B31C8BC3D20033F877 /* CoffeeFindr */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBD668B21C8BC3D20033F877 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBD668C71C8BC3D20033F877 /* LaunchScreen.storyboard in Resources */,
+				FBD668C41C8BC3D20033F877 /* Assets.xcassets in Resources */,
+				FBD668C21C8BC3D20033F877 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBD668B01C8BC3D20033F877 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBD668BF1C8BC3D20033F877 /* ViewController.m in Sources */,
+				FBD668D71C8C11990033F877 /* DirectionsViewController.m in Sources */,
+				FBD668D41C8C05300033F877 /* CoffeeShop.m in Sources */,
+				FBD668BC1C8BC3D20033F877 /* AppDelegate.m in Sources */,
+				FBD668B91C8BC3D20033F877 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FBD668C01C8BC3D20033F877 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBD668C11C8BC3D20033F877 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FBD668C51C8BC3D20033F877 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBD668C61C8BC3D20033F877 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBD668C91C8BC3D20033F877 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FBD668CA1C8BC3D20033F877 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBD668CC1C8BC3D20033F877 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = CoffeeFindr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.amber.CoffeeFindr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		FBD668CD1C8BC3D20033F877 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = CoffeeFindr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.amber.CoffeeFindr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBD668AF1C8BC3D20033F877 /* Build configuration list for PBXProject "CoffeeFindr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBD668C91C8BC3D20033F877 /* Debug */,
+				FBD668CA1C8BC3D20033F877 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBD668CB1C8BC3D20033F877 /* Build configuration list for PBXNativeTarget "CoffeeFindr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBD668CC1C8BC3D20033F877 /* Debug */,
+				FBD668CD1C8BC3D20033F877 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBD668AC1C8BC3D20033F877 /* Project object */;
+}
